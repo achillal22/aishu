@@ -1,19 +1,40 @@
-let globalVar = "I am global"; // Global variable
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic HTML Tags Example</title>
 
-function testScope() {
-    let functionVar = "I am inside a function"; // Function Scope
+</head>
+<body>
 
-    if (true) {
-        let blockVar = "I am inside if block"; // Block Scope
+  <header>
+    <h1>Welcome to My Sample Page</h1>
+  </header>
 
-        console.log(blockVar); // ✅ Works
-    }
+  <section>
+    <h2>About Me</h2>
+    <article>
+      <p>Hello! My name is <span class="highlight">Aishwarya</span>. I love coding and designing websites.</p>
+      <img src="html.jpg"  height=200 Sample Image">
+    </article>
+  </section>
 
-    console.log(functionVar); // ✅ Works
-    // console.log(blockVar); // ❌ ERROR! Can't access blockVar outside its block
-}
+  <section>
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name"><br><br>
 
-testScope();
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email"><br><br>
 
-console.log(globalVar); // ✅ Works (Global variable)
-// console.log(functionVar); // ❌ ERROR! Can't access functionVar outside function
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 <span class="highlight">MyWebsite</span>. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
