@@ -1,0 +1,19 @@
+1.HTML Basics
+<!DOCTYPE html>
+<head>,<body>,<div>,<span>,<a>,<img>,<input>,<form>,etc.
+-Sematic tags:<header>,<footer>,<section>,<article>
+
+2.CSS Essentials
+-Selectors:.class,#id,element
+-Box model:margin,border,padding,content
+-positioning:static,relative,absolute,fixed,sticky
+-Flexbox & Grid:display:flex;,display:grid;
+-Media Queries:@media(max-width:768px){...}
+
+3.Javascript Basics
+-Variables:let,const,var
+-Functions:function() {},arrow function()=>{}
+-DOM Manipulation:
+document.getElementById(),querySelector()
+-Events:onclick,addEventListener()
+-ES6+ features:destructuring,spread/rest,template literals
